@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+/*  ----- fonts -----  */
+/*{font-family:'AR UDJingXiHeiVF Medium'; src:url('/fonts/webfonts/JingXiHei-VF.woff2');}
+
+{font-family:'Jabin-Typeface Light Swash'; src:url('/fonts/webfonts/Jabin-Typeface.woff2');}
+
+*/
+@font-face{
+    font-family: jing;
+    src: url('/fonts/webfonts/JingXiHei-VF.woff2');
+}
+.jap{
+    font-family: jing;
+}
+@font-face{
+    font-family: jabin;
+    src: url(fonts/Jabin-Typeface.woff2);
+}
+.eng{
+    font-family: jabin;
+}
+
+
+
+
+
+
+/*  ----- header -----  */
+header{
+    position: fixed;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+header div{
+    position: absolute;
+    display:  block;
+    width: 30px;
+    height: 30px;
+}
+#here_eng{
+    top: 40px;
+    left: 40px;
+    background-color: lightcyan;
+}
+#become_eng{
+    top: 40px;
+    right: 40px;
+    background-color: lightcyan;
+}
+#here_jap{
+    bottom: 40px;
+    left: 40px;
+    background-color: lightcyan;
+}
+#become_jap{
+    bottom: 40px;
+    right: 40px;
+    background-color: lightcyan;
+}
+
+
+/*  ----- body -----  */
+body{
+    position: fixed;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: chartreuse;
+}
+body p{
+    position: absolute;
+}
+.letra{
+    display: none;
+}
+
+/* myBody */
+#myBodyw{
+    display: block;
+    height: 100%;
+    width: 0%;
+    background-color: cornflowerblue;
+}
